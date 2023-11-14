@@ -257,7 +257,52 @@ def delete_employee(employee_id):
     finally:
         cursor.close() 
         conn.close()
+
+
+
+@app.route('/room')
+def room():
+    try:
+        conn = mysql.connect()
+        cursor = conn.cursor(pymysql.cursors.DictCursor)
+        cursor.execute("SELECT * FROM room")
+        empRows = cursor.fetchall()
+        respone = jsonify(empRows)
+        respone.status_code = 200
+        return respone
+    except Exception as err:
+        print(err)
+    finally:
+        cursor.close() 
+        conn.close()  
+
+
+
+@app.route('/employee/login', methods=['POST'])
+def login():
+    try:
+        _json = request.json
+        _login = _json['login']
+        _password = _json['password']
         
+        if _login and _password and request.method == 'POST':
+            _login = _json['login']
+            _password = _json['password']
+            conn = mysql.connect()
+            cursor = conn.cursor(pymysql.cursors.DictCursor)
+            bindData = (_login, _password)
+            cursor.execute("SELECT * FROM employee where login = %s and password = %s;", bindData)
+            empRows = cursor.fetchall()
+            respone = jsonify(empRows)
+            respone.status_code = 200
+            return respone
+    except Exception as err:
+        print(err)
+    finally:
+        cursor.close() 
+        conn.close()  
+
+
 ###
 ### ERROR HANDLER
 ###
