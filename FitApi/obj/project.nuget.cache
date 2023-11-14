@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "rysWhdrq5CrxtdtbsiwB6ahXBbFjxXHVjeVH5vHqRlHA89HIa/cx9U42otkdaiQS6vZb57w/steCn33Oo4ydHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gleb\\source\\repos\\FitApi\\FitApi\\FitApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gleb\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\extended.wpf.toolkit\\4.5.1\\extended.wpf.toolkit.4.5.1.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\moq\\4.20.69\\moq.4.20.69.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\gleb\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
